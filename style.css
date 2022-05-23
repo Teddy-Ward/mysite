@@ -922,8 +922,9 @@ path.two {
         fill: white;
     }
 }
+
 /* smaller screens */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   body {
     height: auto;
   }
@@ -941,12 +942,14 @@ path.two {
   .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
   .navBtn:hover {
     padding-right:40px;
   }
   .skills p {
     padding-bottom: 10px;
+  }
+  .welcome .img {
+    padding-top:10px;
   }
 }
