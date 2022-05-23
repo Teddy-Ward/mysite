@@ -100,6 +100,7 @@ function switchVisible() {
             document.getElementById("projects").style.display = "none";
             document.getElementById("contact").style.display = "none";
             document.getElementById("home").style.animationDelay = "0.2s";
+            /*document.getElementsByClassName("bar")[0].style.backgroundColor = "var(--primary-brand-color)";*/
             const nodeList = document.querySelectorAll(".pie");
             for (let i = 0; i <nodeList.length; i++) {
                nodeList[i].style.animationDelay = "1s";
@@ -118,8 +119,8 @@ function switchVisible2() {
         document.getElementById("home").style.display = "none";
         document.getElementById("contact").style.display = "none";
         document.getElementById("projects").style.animationDelay = "0.2s";
-        document.getElementsByClassName("bar")[0].style.backgroundColor = "var(--secondary-brand-color)";
-        /*document.getElementsByClassName('bar')[0].style.cssText = "animation: 3s background-fade ease-in;";
+        /*document.getElementsByClassName("bar")[0].style.backgroundColor = "var(--secondary-brand-color)";
+        document.getElementsByClassName('bar')[0].style.cssText = "animation: 3s background-fade ease-in;";
             alert('yes!');*/
     }
 };
@@ -131,7 +132,7 @@ function switchContact() {
         document.getElementById("home").style.display = "none";
         document.getElementById("projects").style.display = "none";
         document.getElementById("contact").style.animationDelay = "0.2s";
-            /*alert('yes!');*/
+        /*document.getElementsByClassName("bar")[0].style.backgroundColor = "var(--tertiary-brand-color)";*/
     }
 };
 
