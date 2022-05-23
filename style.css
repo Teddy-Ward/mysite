@@ -989,6 +989,11 @@ path.two {
   .welcome .img {
     padding-top:10px;
   }
+  .slideshow-container:hover {
+    transform: scale(3) translateX(35%) translateY(30%);
+    z-index: 1;
+  
+  }
 }
 
 @media screen and (max-width: 1020px) {
