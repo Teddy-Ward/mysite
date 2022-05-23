@@ -975,6 +975,7 @@ path.two {
   .cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px 10px;
   }
   .main .inset-box {
     min-height: 100%;
