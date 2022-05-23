@@ -934,6 +934,7 @@ path.two {
   .box-grid {
     grid-template-columns: 20px auto 30px;
     min-height: 90vh;
+    height: auto;
   }
   .welcome {
     display: flex;
