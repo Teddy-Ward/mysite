@@ -30,6 +30,7 @@ body {
     height: 90vh;
     min-height: 850px;
     overflow: hidden;
+    font-size: medium;
 }
 
 /*welcome */
@@ -1004,4 +1005,8 @@ path.two {
     overflow: auto;
     overflow-x: hidden;
   }
+}
+
+#id01 {
+  display: none;
 }
